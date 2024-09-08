@@ -1,0 +1,24 @@
+{
+  "name": "cassette-player-api",
+  "version": "1.0.0",
+  "author": "GrosboillotFlo",
+  "license": "MIT",
+  "description": "This is a simple API that simulates the behavior of a cassette player (the Walkman type) built with Node.js and Express.",
+  "keywords": [
+    "api",
+    "node.js",
+    "express",
+    "walkman"
+  ],
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "clean-install-mac": "rm -rf node_modules package-lock.json && npm install",
+    "clean-install-windows": "rimraf node_modules package-lock.json && npm install",
+    "echo": "echo 'Ahoy!'",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.19.2"
+  }
+}
